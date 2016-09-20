@@ -17,11 +17,11 @@ public class PredicateInterface {
      */
     public static List<Employee> createEmployee() {
         List<Employee> employeeList = new ArrayList<>();
-        employeeList.add(new Employee(001, "John", 2600));
-        employeeList.add(new Employee(002, "Mathew", 3600));
-        employeeList.add(new Employee(003, "Henry", 3400));
-        employeeList.add(new Employee(004, "Tom", 2700));
-        employeeList.add(new Employee(001, "Gorden", 2300));
+        employeeList.add(new Employee(001, "John", 2600, 2));
+        employeeList.add(new Employee(002, "Mathew", 3600, 6));
+        employeeList.add(new Employee(003, "Henry", 3400, 5));
+        employeeList.add(new Employee(004, "Tom", 2700, 3));
+        employeeList.add(new Employee(001, "Gorden", 2300, 1));
         return employeeList;
     }
 

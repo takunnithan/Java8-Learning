@@ -23,7 +23,7 @@ public class SupplierInterface {
     }
 
     public static void main(String[] args) {
-        Employee employee = getEmployee(() -> new Employee(001, "John", 2600));
+        Employee employee = getEmployee(() -> new Employee(001, "John", 2600, 5));
         System.out.println("The employee details:");
         System.out.println(employee.getEmpName());
     }

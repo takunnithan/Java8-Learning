@@ -7,11 +7,13 @@ public class Employee {
     private int empId;
     private String empName;
     private double empSalary;
+    private int experience;
 
-    public Employee(int empId, String empName, double empSalary) {
+    public Employee(int empId, String empName, double empSalary, int experience) {
         this.empId = empId;
         this.empName = empName;
         this.empSalary = empSalary;
+        this.experience = experience;
     }
 
     public int getEmpId() {
@@ -36,5 +38,13 @@ public class Employee {
 
     public void setEmpSalary(double empSalary) {
         this.empSalary = empSalary;
+    }
+
+    public int getExperience() {
+        return experience;
+    }
+
+    public void setExperience(int experience) {
+        this.experience = experience;
     }
 }
