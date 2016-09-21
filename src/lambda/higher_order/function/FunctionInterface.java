@@ -1,4 +1,4 @@
-package lambda.higher_order.predicate;
+package lambda.higher_order.function;
 
 import java.util.ArrayList;
 import java.util.List;
